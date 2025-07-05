@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "symbol_library")(type "KiCad")(uri "${KIPRJMOD}/symbol_library.kicad_sym")(options "")(descr ""))
+  (lib (name "MultiProbe4R")(type "KiCad")(uri "C:/Users/thoma/Documents/Dev/KiCAD/MultiProbe4R/MultiProbe4R.kicad_sym")(options "")(descr ""))
+)
