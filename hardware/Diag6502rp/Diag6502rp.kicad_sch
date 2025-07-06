@@ -5618,7 +5618,7 @@
 		(dnp no)
 		(uuid "3a81db5e-7b91-4b0d-9fc6-7b925913761b")
 		(property "Reference" "J1"
-			(at 176.784 23.114 0)
+			(at 189.992 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,8 +5626,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x21_Pin"
-			(at 176.784 25.654 0)
+		(property "Value" "Conn_01x21_PinHeader"
+			(at 167.894 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5635,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -5812,22 +5812,22 @@
 		(dnp no)
 		(uuid "897ae476-6d93-4ec5-af3e-f57a230e3de9")
 		(property "Reference" "J2"
-			(at 195.58 23.876 0)
+			(at 194.818 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x21_Socket"
-			(at 203.581 25.908 0)
+		(property "Value" "Conn_01x21_PinSocket"
+			(at 206.248 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical"
 			(at 194.31 55.88 0)
 			(effects
 				(font
@@ -6004,7 +6004,7 @@
 		(dnp no)
 		(uuid "d15e8261-3a5d-4076-85fc-48f05a95d599")
 		(property "Reference" "J3"
-			(at 175.26 85.344 0)
+			(at 188.722 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,8 +6012,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x21_Pin"
-			(at 175.26 87.884 0)
+		(property "Value" "Conn_01x21_PinHeader"
+			(at 168.148 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +6021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical"
 			(at 190.5 118.11 0)
 			(effects
 				(font
@@ -6131,22 +6131,22 @@
 		(dnp no)
 		(uuid "d5df5600-7345-4d6f-b5b1-eec84937a0a7")
 		(property "Reference" "J4"
-			(at 195.326 85.852 0)
+			(at 194.818 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x21_Socket"
-			(at 203.835 88.138 0)
+		(property "Value" "Conn_01x21_PinSocket"
+			(at 205.994 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x21_P2.54mm_Vertical"
 			(at 194.31 118.11 0)
 			(effects
 				(font

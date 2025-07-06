@@ -1512,108 +1512,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "symbol_library:TXS0108ERGYR"
+		(symbol "Logic_LevelTranslator:TXS0108EPW"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1625,7 +1524,7 @@
 					)
 				)
 			)
-			(property "Value" "TXS0108ERGYR"
+			(property "Value" "TXS0108EPW"
 				(at 3.81 16.51 0)
 				(effects
 					(font
@@ -1634,7 +1533,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "footprints:IC_TXS0108ERGYR"
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 				(at 0 -19.05 0)
 				(effects
 					(font
@@ -1652,7 +1551,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bidirectional  level-shifting voltage translator, VQFN"
+			(property "Description" "Bidirectional  level-shifting voltage translator, TSSOP-20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1670,7 +1569,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "TXS0108ERGYR_0_1"
+			(property "ki_fp_filters" "*SSOP*4.4x6.5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TXS0108EPW_0_1"
 				(rectangle
 					(start -7.62 15.24)
 					(end 7.62 -15.24)
@@ -1683,7 +1591,7 @@
 					)
 				)
 			)
-			(symbol "TXS0108ERGYR_1_1"
+			(symbol "TXS0108EPW_1_1"
 				(pin input line
 					(at -10.16 10.16 0)
 					(length 2.54)
@@ -1882,101 +1790,6 @@
 						)
 					)
 				)
-				(pin passive non_logic
-					(at 0 -17.78 90)
-					(length 2.54)
-					(hide yes)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 0 -17.78 90)
-					(length 2.54)
-					(hide yes)
-					(name "EP_VIA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 0 -17.78 90)
-					(length 2.54)
-					(hide yes)
-					(name "EP_VIA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 0 -17.78 90)
-					(length 2.54)
-					(hide yes)
-					(name "EP_VIA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 0 -17.78 90)
-					(length 2.54)
-					(hide yes)
-					(name "EP_VIA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 2.54 17.78 270)
 					(length 2.54)
@@ -2137,6 +1950,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -7846,7 +7760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbol_library:TXS0108ERGYR")
+		(lib_id "Logic_LevelTranslator:TXS0108EPW")
 		(at 254 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7863,8 +7777,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXS0108ERGYR"
-			(at 256.1941 71.12 0)
+		(property "Value" "TXS0108EPW"
+			(at 257.81 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +7786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:IC_TXS0108ERGYR"
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 254 69.85 0)
 			(effects
 				(font
@@ -7890,7 +7804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional  level-shifting voltage translator, VQFN"
+		(property "Description" "Bidirectional  level-shifting voltage translator, TSSOP-20"
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -7898,9 +7812,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "24"
-			(uuid "7c9f9e68-f3e5-4b10-b0e5-4724b8e10fa7")
 		)
 		(pin "16"
 			(uuid "c0768b5c-8327-4ed6-b391-d8ecaab87de7")
@@ -7929,17 +7840,11 @@
 		(pin "7"
 			(uuid "bc1785d5-078e-4f1a-8242-8eef18564dba")
 		)
-		(pin "22"
-			(uuid "2d3a74c2-0914-4b7d-839f-4dbfeaed5587")
-		)
 		(pin "13"
 			(uuid "9cc5d7dc-c041-4a73-ad7b-275aa64bdb6d")
 		)
 		(pin "19"
 			(uuid "1c3e0e92-8d57-4562-85a7-a92b58dcdde3")
-		)
-		(pin "23"
-			(uuid "79afeffd-7f56-458f-b794-395c94a971e2")
 		)
 		(pin "10"
 			(uuid "396ca96e-5e10-4f93-81c1-5c986a37bd96")
@@ -7968,12 +7873,6 @@
 		(pin "15"
 			(uuid "6126eccf-18bc-45d0-9811-cae8e548f804")
 		)
-		(pin "21"
-			(uuid "408c7bfd-308c-4343-a066-fc12bed10028")
-		)
-		(pin "25"
-			(uuid "ec5bacd3-efc9-4ed5-958b-0ea10db4ed7b")
-		)
 		(instances
 			(project "Diag6502rp"
 				(path "/2439caa5-1b7d-40de-b309-64357b0b1cd3/c003db24-4bd6-49ad-8fb6-68dae2466627"
@@ -7984,7 +7883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbol_library:TXS0108ERGYR")
+		(lib_id "Logic_LevelTranslator:TXS0108EPW")
 		(at 201.93 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8001,8 +7900,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXS0108ERGYR"
-			(at 204.1241 71.12 0)
+		(property "Value" "TXS0108EPW"
+			(at 205.74 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +7909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:IC_TXS0108ERGYR"
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 201.93 69.85 0)
 			(effects
 				(font
@@ -8028,7 +7927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional  level-shifting voltage translator, VQFN"
+		(property "Description" "Bidirectional  level-shifting voltage translator, TSSOP-20"
 			(at 201.93 50.8 0)
 			(effects
 				(font
@@ -8036,9 +7935,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "24"
-			(uuid "dbbdf5b1-cd1c-4aa5-a194-66c6ffe8d675")
 		)
 		(pin "16"
 			(uuid "53561b41-d63c-4fa6-afe2-2491a2a4fc54")
@@ -8067,17 +7963,11 @@
 		(pin "7"
 			(uuid "ed0adfd8-5171-41f6-b5b4-dac01f26354c")
 		)
-		(pin "22"
-			(uuid "1033df76-b72c-4261-9bef-da375516036b")
-		)
 		(pin "13"
 			(uuid "0c07321e-70cc-4605-a9c6-e03cc7e05885")
 		)
 		(pin "19"
 			(uuid "94ff2d44-f984-4f6f-be90-3953789394f5")
-		)
-		(pin "23"
-			(uuid "7b5fb005-988a-4b16-8626-7523c762fe5e")
 		)
 		(pin "10"
 			(uuid "fdcc03df-6697-4fe4-9cca-dfde7c35c6e2")
@@ -8106,12 +7996,6 @@
 		(pin "15"
 			(uuid "15ccd47c-6946-49cd-9a43-44deb18b2439")
 		)
-		(pin "21"
-			(uuid "dc16c12d-cb7f-4fff-9fdd-444cc5c74cbf")
-		)
-		(pin "25"
-			(uuid "8490d044-9f77-4676-af2a-1eb0b522317e")
-		)
 		(instances
 			(project "Diag6502rp"
 				(path "/2439caa5-1b7d-40de-b309-64357b0b1cd3/c003db24-4bd6-49ad-8fb6-68dae2466627"
@@ -8122,7 +8006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbol_library:TXS0108ERGYR")
+		(lib_id "Logic_LevelTranslator:TXS0108EPW")
 		(at 97.79 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8139,8 +8023,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXS0108ERGYR"
-			(at 99.9841 71.12 0)
+		(property "Value" "TXS0108EPW"
+			(at 101.6 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,7 +8032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:IC_TXS0108ERGYR"
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 97.79 69.85 0)
 			(effects
 				(font
@@ -8166,7 +8050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional  level-shifting voltage translator, VQFN"
+		(property "Description" "Bidirectional  level-shifting voltage translator, TSSOP-20"
 			(at 97.79 50.8 0)
 			(effects
 				(font
@@ -8174,9 +8058,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "24"
-			(uuid "6562056f-7597-46cf-9367-ad99a843cf51")
 		)
 		(pin "16"
 			(uuid "5a3ba0d4-d833-404f-88a5-cb853ae3b9b9")
@@ -8205,17 +8086,11 @@
 		(pin "7"
 			(uuid "37dd6ee1-8c90-4177-9277-5ade062b8082")
 		)
-		(pin "22"
-			(uuid "8b63d268-a841-4bd5-aba4-e9e0e3cf41e5")
-		)
 		(pin "13"
 			(uuid "f8195bf1-fb39-4779-aad2-d6b6e03642ed")
 		)
 		(pin "19"
 			(uuid "1d79d405-1b6b-41d7-baf4-89ac59637596")
-		)
-		(pin "23"
-			(uuid "af1356b5-2d56-46cc-be36-5541160d3218")
 		)
 		(pin "10"
 			(uuid "0fb51e3d-6bca-40d6-8dd3-1e8918430bd4")
@@ -8243,12 +8118,6 @@
 		)
 		(pin "15"
 			(uuid "ae8056a0-ef2b-452d-90f4-3a8e82bf19e7")
-		)
-		(pin "21"
-			(uuid "18f17ca1-c655-4b16-84fd-9e0ece958195")
-		)
-		(pin "25"
-			(uuid "628d1335-8be7-4a8d-9e5e-37cf9c025687")
 		)
 		(instances
 			(project "Diag6502rp"
@@ -8335,7 +8204,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7ce363e1-8cb6-42e5-bcfa-c63466034596")
 		(property "Reference" "J6"
@@ -8511,7 +8380,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbol_library:TXS0108ERGYR")
+		(lib_id "Logic_LevelTranslator:TXS0108EPW")
 		(at 149.86 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8528,8 +8397,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXS0108ERGYR"
-			(at 152.0541 71.12 0)
+		(property "Value" "TXS0108EPW"
+			(at 153.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8537,7 +8406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:IC_TXS0108ERGYR"
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 149.86 69.85 0)
 			(effects
 				(font
@@ -8555,7 +8424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional  level-shifting voltage translator, VQFN"
+		(property "Description" "Bidirectional  level-shifting voltage translator, TSSOP-20"
 			(at 149.86 50.8 0)
 			(effects
 				(font
@@ -8563,9 +8432,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "24"
-			(uuid "a3da7c3f-cfe4-499c-904a-a1cd2d75716a")
 		)
 		(pin "16"
 			(uuid "76a8d23f-2f30-4693-b40b-8e8ab00327c0")
@@ -8594,17 +8460,11 @@
 		(pin "7"
 			(uuid "a7cb1959-88b7-446a-9b79-5c35d3db1124")
 		)
-		(pin "22"
-			(uuid "8d088646-d465-4312-a549-5532f289b575")
-		)
 		(pin "13"
 			(uuid "3b9547f6-e260-412e-87e9-9d170b40ffa1")
 		)
 		(pin "19"
 			(uuid "fb67bd7f-b89d-4c98-acba-06391367af3c")
-		)
-		(pin "23"
-			(uuid "83421420-8226-4db1-8dfe-72551fc49a46")
 		)
 		(pin "10"
 			(uuid "8eb04f6f-c623-41df-b34c-32e93f907df6")
@@ -8632,12 +8492,6 @@
 		)
 		(pin "15"
 			(uuid "5b1073b3-ec6c-4995-81b2-ae0c73a1f6b7")
-		)
-		(pin "21"
-			(uuid "f90516cd-8317-4bfd-bdd7-e35270aa9a1a")
-		)
-		(pin "25"
-			(uuid "32bf4f2a-ccfd-474c-8aad-196f6884ea36")
 		)
 		(instances
 			(project "Diag6502rp"
@@ -9066,7 +8920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbol_library:TXS0108ERGYR")
+		(lib_id "Logic_LevelTranslator:TXS0108EPW")
 		(at 45.72 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9083,8 +8937,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TXS0108ERGYR"
-			(at 47.9141 71.12 0)
+		(property "Value" "TXS0108EPW"
+			(at 49.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9092,7 +8946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:IC_TXS0108ERGYR"
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 45.72 69.85 0)
 			(effects
 				(font
@@ -9110,7 +8964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional  level-shifting voltage translator, VQFN"
+		(property "Description" "Bidirectional  level-shifting voltage translator, TSSOP-20"
 			(at 45.72 50.8 0)
 			(effects
 				(font
@@ -9118,9 +8972,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "24"
-			(uuid "a628a18f-9c2f-4e11-91a9-e4d2a9b89a8a")
 		)
 		(pin "16"
 			(uuid "fafa2546-82c1-458b-832b-85f6e7d8c125")
@@ -9149,17 +9000,11 @@
 		(pin "7"
 			(uuid "e2025436-cacd-4c15-83e3-55721794316d")
 		)
-		(pin "22"
-			(uuid "6e4ffaff-8fc1-496a-aa2a-1090c358628f")
-		)
 		(pin "13"
 			(uuid "5140b1c1-6092-487b-b368-9402f934aea1")
 		)
 		(pin "19"
 			(uuid "15032982-61a0-4e6b-ba7d-79a416217565")
-		)
-		(pin "23"
-			(uuid "97c7a6d9-4fa6-41a7-92e5-a0a93833e4ad")
 		)
 		(pin "10"
 			(uuid "2e336e65-983a-4a08-bf78-18a33ae544bd")
@@ -9187,12 +9032,6 @@
 		)
 		(pin "15"
 			(uuid "d51b7afb-8a8f-4582-bb6a-c74128ffffc6")
-		)
-		(pin "21"
-			(uuid "e6c8fbd3-5303-49c8-90cd-13aabb3074a7")
-		)
-		(pin "25"
-			(uuid "62fa4175-1ef1-4c69-997c-ddbc0a41f4a4")
 		)
 		(instances
 			(project "Diag6502rp"
