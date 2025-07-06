@@ -2232,7 +2232,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MultiProbe4R:GCT_USB4105-GF-A"
+			(property "Footprint" "footprints:GCT_USB4105-GF-A"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -2901,6 +2901,12 @@
 		(uuid "325646ee-1a85-4c9a-a548-748f686838de")
 	)
 	(junction
+		(at 179.07 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32867533-de86-4a91-9c32-f237d50f6692")
+	)
+	(junction
 		(at 184.15 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2941,6 +2947,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cca74416-9a8a-408e-a0bb-e5d09f19887d")
+	)
+	(junction
+		(at 115.57 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdf0f4fc-0e2d-43ef-82c4-1eff763eb832")
 	)
 	(junction
 		(at 72.39 54.61)
@@ -3000,7 +3012,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 69.85) (xy 184.15 69.85)
+			(xy 171.45 69.85) (xy 179.07 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3070,6 +3082,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 69.85) (xy 179.07 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cade340-bc8a-4a54-b50e-51b60e2b421e")
+	)
+	(wire
+		(pts
 			(xy 205.74 34.29) (xy 217.17 34.29)
 		)
 		(stroke
@@ -3120,6 +3142,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 82.55) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1144a3-e72a-4317-b138-ad132b264bd7")
+	)
+	(wire
+		(pts
 			(xy 72.39 82.55) (xy 72.39 85.09)
 		)
 		(stroke
@@ -3147,6 +3179,16 @@
 			(type default)
 		)
 		(uuid "3f4b4399-7b47-4811-8c54-c1ab568403a9")
+	)
+	(wire
+		(pts
+			(xy 171.45 69.85) (xy 147.32 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c8d4a1-b262-4c7c-bfe5-a244669691e0")
 	)
 	(wire
 		(pts
@@ -3270,6 +3312,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 69.85) (xy 184.15 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81dfb5f7-1e4a-45e1-b5f3-79daac6b88f5")
+	)
+	(wire
+		(pts
 			(xy 190.5 34.29) (xy 184.15 34.29)
 		)
 		(stroke
@@ -3330,16 +3382,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 69.85) (xy 147.32 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b10e194e-4bc9-426e-b38b-4996dd05f6fe")
-	)
-	(wire
-		(pts
 			(xy 48.26 72.39) (xy 48.26 74.93)
 		)
 		(stroke
@@ -3397,16 +3439,6 @@
 			(type default)
 		)
 		(uuid "ce6d305f-e441-48b7-87c0-d31c6ea55754")
-	)
-	(wire
-		(pts
-			(xy 147.32 69.85) (xy 171.45 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cef37f78-397a-451b-a8e8-f2e5847ce0cf")
 	)
 	(wire
 		(pts
@@ -3487,16 +3519,6 @@
 			(type default)
 		)
 		(uuid "eaffaf14-6e4b-499b-975d-ce7d92ef044c")
-	)
-	(wire
-		(pts
-			(xy 147.32 80.01) (xy 147.32 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f167577a-086b-4a3e-b25b-b20aaa0379e0")
 	)
 	(wire
 		(pts
@@ -3584,7 +3606,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 10c1c881-c504-4124-bf90-1adf3975bd26)
+			(uuid fab5438f-1058-4fe2-9ed0-ac5f947b79c9)
 		)
 	)
 	(netclass_flag ""
@@ -3888,7 +3910,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 76.2 0)
+		(at 179.07 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3897,7 +3919,7 @@
 		(fields_autoplaced yes)
 		(uuid "23597433-4c37-408a-8c88-424365498907")
 		(property "Reference" "C2"
-			(at 151.13 74.9299 0)
+			(at 182.88 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +3928,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 151.13 77.4699 0)
+			(at 182.88 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3937,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 148.2852 80.01 0)
+			(at 180.0352 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 76.2 0)
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3955,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 147.32 76.2 0)
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3964,7 @@
 			)
 		)
 		(property "Feld9" ""
-			(at 147.32 76.2 0)
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3973,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 147.32 76.2 0)
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4688,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 85.09 0)
+		(at 179.07 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4675,7 +4697,7 @@
 		(fields_autoplaced yes)
 		(uuid "69e80012-bb1d-43ee-b078-03de9eb35bcc")
 		(property "Reference" "#PWR09"
-			(at 147.32 91.44 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4706,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 90.17 0)
+			(at 179.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 85.09 0)
+			(at 179.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 85.09 0)
+			(at 179.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +4732,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 85.09 0)
+			(at 179.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,6 +5547,73 @@
 			(project "Diag6502rp"
 				(path "/2439caa5-1b7d-40de-b309-64357b0b1cd3/5ebef23f-13b0-4832-80ab-6dd0d052fbcf"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 115.57 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2f4ca04-74f6-4c0b-9bd4-799e37efc191")
+		(property "Reference" "#FLG08"
+			(at 113.665 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 111.76 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c95b178-2113-4e16-90bc-10562f122a5f")
+		)
+		(instances
+			(project ""
+				(path "/2439caa5-1b7d-40de-b309-64357b0b1cd3/5ebef23f-13b0-4832-80ab-6dd0d052fbcf"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)

@@ -49,13 +49,13 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffdffd7_ffffffdd",
+    "visible_layers": "00000000_00000000_0ffdffd7_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
-    "repo_type": "",
-    "repo_username": "",
+    "repo_type": "https",
+    "repo_username": "innot",
     "ssh_key": ""
   },
   "meta": {

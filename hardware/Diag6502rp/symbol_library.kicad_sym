@@ -3002,7 +3002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MultiProbe4R:GCT_USB4105-GF-A"
+		(property "Footprint" "footprints:GCT_USB4105-GF-A"
 			(at 3.81 0 0)
 			(effects
 				(font
