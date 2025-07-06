@@ -88,7 +88,11 @@
           ""
         ],
         [
-          "courtyards_overlap|107703203|59005000|a3035342-9f7a-4dde-ad44-1627117e3c4c|b76b6afe-d672-4f9c-8159-459168eca453",
+          "courtyards_overlap|106775000|37505000|a3035342-9f7a-4dde-ad44-1627117e3c4c|c9be0daf-02f5-42ef-9fb2-b616c45c06be",
+          ""
+        ],
+        [
+          "courtyards_overlap|108132230|59005000|a3035342-9f7a-4dde-ad44-1627117e3c4c|b76b6afe-d672-4f9c-8159-459168eca453",
           ""
         ],
         [
@@ -100,23 +104,27 @@
           ""
         ],
         [
-          "courtyards_overlap|110665000|87695000|76752bae-dd03-4fde-ab43-9d11afc5393c|a3035342-9f7a-4dde-ad44-1627117e3c4c",
-          ""
-        ],
-        [
           "courtyards_overlap|110910200|44695000|a3035342-9f7a-4dde-ad44-1627117e3c4c|b9de5f64-5a91-4187-ae45-78025b26796f",
           ""
         ],
         [
-          "courtyards_overlap|111334733|69755000|a3035342-9f7a-4dde-ad44-1627117e3c4c|c667d47b-99e3-407f-999f-5b94cca0912c",
+          "courtyards_overlap|111804298|69875000|a3035342-9f7a-4dde-ad44-1627117e3c4c|c667d47b-99e3-407f-999f-5b94cca0912c",
           ""
         ],
         [
-          "courtyards_overlap|113065000|37845000|a3035342-9f7a-4dde-ad44-1627117e3c4c|c9be0daf-02f5-42ef-9fb2-b616c45c06be",
+          "courtyards_overlap|112827500|87105000|04ce8e85-c649-4f6f-8d3b-8aa34827676d|0a9bdabd-d441-49dd-9e1a-2c5e3892a9c9",
           ""
         ],
         [
           "courtyards_overlap|113345000|64265000|6a9ebe4f-6be8-4328-bc5f-498c275771f7|a3035342-9f7a-4dde-ad44-1627117e3c4c",
+          ""
+        ],
+        [
+          "courtyards_overlap|113575000|83799500|2254745e-78b4-422c-994f-f0e1b7b24413|a3035342-9f7a-4dde-ad44-1627117e3c4c",
+          ""
+        ],
+        [
+          "courtyards_overlap|117885000|87105000|0a9bdabd-d441-49dd-9e1a-2c5e3892a9c9|a3035342-9f7a-4dde-ad44-1627117e3c4c",
           ""
         ],
         [
@@ -167,7 +175,7 @@
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
-        "holes_co_located": "warning",
+        "holes_co_located": "ignore",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -221,7 +229,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.25,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.125,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,

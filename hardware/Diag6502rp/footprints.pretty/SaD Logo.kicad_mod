@@ -1,0 +1,153 @@
+(footprint "SaD Logo"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f8347a65-3ca5-42a1-962c-909d767c76f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "444d15b4-9219-4b36-b6a5-189a29d6083e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eaadb230-5ee3-4509-9b1d-1967e4963f5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa209017-7389-4cca-aa76-78f480dbaa9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.25 -2.25) (xy -0.25 -3.75) (xy -4.25 -3.75) (xy -4.25 -2.25)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "636ee75d-f4d2-475a-ab2f-767fdca34034")
+	)
+	(fp_poly
+		(pts
+			(xy 2 0) (xy 2 -6) (xy 0.25 -6) (xy 0.25 0)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "1e608cc4-3bb9-423d-a8b6-45a0d547081e")
+	)
+	(fp_poly
+		(pts
+			(xy -0.237437 -4.25)
+			(arc
+				(start -4.250045 -4.25)
+				(mid -3.737469 -5.487469)
+				(end -2.5 -6.000045)
+			)
+			(xy -0.237437 -6.000045)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "25aa6bc6-c098-4c18-88d8-9c3e9542eb49")
+	)
+	(fp_poly
+		(pts
+			(xy -4.25 0.000045) (xy -1.999999 0.000045)
+			(arc
+				(start -2 0.000045)
+				(mid -0.762531 -0.512531)
+				(end -0.249955 -1.75)
+			)
+			(xy -4.25 -1.75) (xy -4.25 0)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e5f9131f-05a3-483d-97a8-b0af40700eac")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 2.5 0)
+				(mid 3.737437 -0.512563)
+				(end 4.25 -1.75)
+			)
+			(arc
+				(start 4.25 -4.25)
+				(mid 3.737437 -5.487437)
+				(end 2.5 -6)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "48c7a4ae-95a3-461d-8ec2-f4a6d9db2278")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fc91c118-fd0c-4467-abeb-8fbdfeb0620c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

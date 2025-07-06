@@ -1,4 +1,4 @@
-25604549389037118
+25606302399319899
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102668,6 +102668,13 @@ RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias
 0
 102
 81
+footprints
+SaD Logo
+
+
+0
+0
+0
 footprints
 XTAL_ABM8-272-T3
 
