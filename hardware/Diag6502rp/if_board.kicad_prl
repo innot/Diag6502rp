@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -26,14 +26,13 @@
       "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       "vias",
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -49,23 +48,20 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffdffd5_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
-    "repo_type": "https",
-    "repo_username": "innot",
+    "repo_type": "",
+    "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Diag6502rp.kicad_prl",
+    "filename": "if_board.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -87,9 +83,7 @@
       6,
       7,
       8,
-      9,
-      10,
-      11
+      9
     ],
     "col_widths": [
       354,
@@ -100,8 +94,6 @@
       210,
       210,
       154,
-      210,
-      210,
       210,
       210
     ],

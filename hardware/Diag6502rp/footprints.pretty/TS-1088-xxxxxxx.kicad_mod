@@ -1,0 +1,169 @@
+(footprint "TS-1088-xxxxxxx"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SPST SMD Tactile Switch")
+	(property "Reference" "REF**"
+		(at 0 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e1bc7e82-1bce-4176-9884-90950a31a319")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TS-1088"
+		(at 0 3.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dffdc14a-551c-4798-be71-468f6ee36ad9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/datasheet/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f1c9658-320f-42d3-86fe-8e59f215a50b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21c2bb6b-b7c1-4f25-8f25-9bf03eb1d707")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.45)
+		(end 2 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5b53b92-81cd-4b9e-926a-9edb0acf81b5")
+	)
+	(fp_line
+		(start -2 -1.05)
+		(end -2 -1.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9414d7c3-74f4-42aa-88d0-c35579b7ec37")
+	)
+	(fp_line
+		(start -2 1.05)
+		(end -2 1.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dc9d04ff-1f73-4fee-b559-6ab603aef38f")
+	)
+	(fp_line
+		(start -2 1.45)
+		(end 2 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85e79469-c421-4ffa-9f3a-7abf08ee84c1")
+	)
+	(fp_line
+		(start 2 -1.45)
+		(end 2 -1.05)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e7bde016-04d8-4ad9-8f58-7ee6baf74b4a")
+	)
+	(fp_line
+		(start 2 1.05)
+		(end 2 1.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f8b6a80-f32e-4c89-bd97-e9f2536cbc64")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3850394b-5810-47cf-9c35-941666413ad0")
+	)
+	(fp_rect
+		(start -2.6 -1.6)
+		(end 2.6 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "40444fe6-1c3c-4a54-b278-66a61c15dec6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a1e6fc7-8aa4-482a-a4d5-e9b15cf5eed9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.075 0)
+		(size 1.35 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "90fb8a8a-8ecc-4c48-8458-ae3b06d1431a")
+	)
+	(pad "2" smd roundrect
+		(at 2.075 0)
+		(size 1.35 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "17f6d893-5c70-4736-adbc-2f1d28074d17")
+	)
+	(embedded_fonts no)
+)

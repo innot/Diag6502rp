@@ -60,26 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|103995000|53497500|a3035342-9f7a-4dde-ad44-1627117e3c4c|e2664ca7-35ba-4266-a445-40d939b02b36",
-          ""
-        ],
-        [
-          "courtyards_overlap|103995000|75015000|9b602308-67fa-4e16-b229-283f17ebf218|a3035342-9f7a-4dde-ad44-1627117e3c4c",
-          ""
-        ],
-        [
-          "courtyards_overlap|105115000|66245000|a3035342-9f7a-4dde-ad44-1627117e3c4c|d4fdb4b1-17b3-42a9-a995-c3b1484e39e0",
-          ""
-        ],
-        [
-          "courtyards_overlap|105115000|87695000|7e53a669-a58d-4655-a3cd-5a4a5dc52081|a3035342-9f7a-4dde-ad44-1627117e3c4c",
-          ""
-        ],
-        [
-          "courtyards_overlap|105365000|44695000|12af60df-0dcd-412b-963e-92c0d7946daf|a3035342-9f7a-4dde-ad44-1627117e3c4c",
-          ""
-        ],
-        [
           "courtyards_overlap|106537500|48255000|a3035342-9f7a-4dde-ad44-1627117e3c4c|e62fe931-5d66-4a54-9dd8-7a2fda8598eb",
           ""
         ],
@@ -96,15 +76,7 @@
           ""
         ],
         [
-          "courtyards_overlap|110665000|55445000|9d6f235d-d1d6-4b0c-a670-443c06c40412|a3035342-9f7a-4dde-ad44-1627117e3c4c",
-          ""
-        ],
-        [
-          "courtyards_overlap|110665000|76945000|a3035342-9f7a-4dde-ad44-1627117e3c4c|c4d6d9bf-8da4-403a-95f4-d08ddbf12812",
-          ""
-        ],
-        [
-          "courtyards_overlap|110910200|44695000|a3035342-9f7a-4dde-ad44-1627117e3c4c|b9de5f64-5a91-4187-ae45-78025b26796f",
+          "courtyards_overlap|109052545|45753784|996a14e9-ff88-43ad-91d3-517131c212ef|a3035342-9f7a-4dde-ad44-1627117e3c4c",
           ""
         ],
         [
@@ -116,15 +88,19 @@
           ""
         ],
         [
-          "courtyards_overlap|113345000|64265000|6a9ebe4f-6be8-4328-bc5f-498c275771f7|a3035342-9f7a-4dde-ad44-1627117e3c4c",
+          "courtyards_overlap|113345000|64445000|6a9ebe4f-6be8-4328-bc5f-498c275771f7|a3035342-9f7a-4dde-ad44-1627117e3c4c",
           ""
         ],
         [
-          "courtyards_overlap|113575000|83799500|2254745e-78b4-422c-994f-f0e1b7b24413|a3035342-9f7a-4dde-ad44-1627117e3c4c",
+          "courtyards_overlap|113575000|83969500|2254745e-78b4-422c-994f-f0e1b7b24413|a3035342-9f7a-4dde-ad44-1627117e3c4c",
           ""
         ],
         [
           "courtyards_overlap|117885000|87105000|0a9bdabd-d441-49dd-9e1a-2c5e3892a9c9|a3035342-9f7a-4dde-ad44-1627117e3c4c",
+          ""
+        ],
+        [
+          "courtyards_overlap|98265000|87941097|6f82fb11-e90c-4264-b56b-e13043fa6160|b1776a4b-607f-4327-ba51-15e7d6732ebd",
           ""
         ],
         [
@@ -144,11 +120,51 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|109220000|62225000|a3035342-9f7a-4dde-ad44-1627117e3c4c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_edge_clearance|134718000|36300000|1e4f598a-003f-4075-a78c-9ad7c6e9104b|cfa44a36-4817-4767-8aa0-9ad5a04df6dd",
           ""
         ],
         [
           "silk_edge_clearance|143658000|36300000|1e4f598a-003f-4075-a78c-9ad7c6e9104b|080e20ce-0ee4-45dd-8335-a5b4729de8a3",
+          ""
+        ],
+        [
+          "silk_over_copper|138873287|66780967|6481a69c-8076-460b-87c8-0cb28f0856ac|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|108685233|35924999|15623d2b-2567-492b-a1a9-f1ce0e3b333c|9fc2bb33-149d-432f-b99c-71fda460c1b2",
+          ""
+        ],
+        [
+          "silk_overlap|109754766|35924999|9fc2bb33-149d-432f-b99c-71fda460c1b2|d13883aa-8e24-4b83-af39-696aae151ea7",
+          ""
+        ],
+        [
+          "silk_overlap|112970000|87690000|5a4e2431-6c65-42c6-ad41-49fda4e18031|f202f02b-fc55-4b47-8feb-3238490efe37",
+          ""
+        ],
+        [
+          "silk_overlap|115570000|87570000|45f7abd7-7e54-4e18-86cc-bfdc8efe99d2|b9713b40-e92b-40e1-916a-8f6ec160ef11",
+          ""
+        ],
+        [
+          "silk_overlap|115570000|87570000|8e6c0fa1-273e-4c0e-873d-e06de84594a5|b9713b40-e92b-40e1-916a-8f6ec160ef11",
+          ""
+        ],
+        [
+          "silk_overlap|115570000|87690000|45f7abd7-7e54-4e18-86cc-bfdc8efe99d2|f202f02b-fc55-4b47-8feb-3238490efe37",
+          ""
+        ],
+        [
+          "silk_overlap|142446359|44820000|182cd822-121f-4880-8097-4a4cb9353aff|a25a0da3-a66c-4d52-af69-d8e58ed389db",
+          ""
+        ],
+        [
+          "solder_mask_bridge|139846427|89636076|8484d0c6-ad30-4039-8b13-d9ce3470b924|399d95ea-2090-42e1-99a7-abc3658a757d",
           ""
         ]
       ],
@@ -233,7 +249,7 @@
         "min_track_width": 0.125,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -624,7 +640,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.5,
-        "via_drill": 0.25,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -635,7 +651,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.5,
-        "via_drill": 0.25
+        "via_drill": 0.3
       },
       {
         "bus_width": 12,
@@ -651,7 +667,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.5,
-        "via_drill": 0.25,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -732,6 +748,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Name",
+          "name": "LCSC Name",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part #",
+          "name": "Mouser Part #",
+          "show": true
         },
         {
           "group_by": false,

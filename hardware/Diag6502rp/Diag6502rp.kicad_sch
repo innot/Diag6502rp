@@ -5888,6 +5888,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C50981"
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Name" ""
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "872f457f-cbd2-4b6c-b678-d75d9a7cb34e")
 		)
@@ -5975,7 +6002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Conn_01x02_PinHeader"
 			(at 189.992 145.542 0)
 			(effects
 				(font
@@ -6003,6 +6030,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C492401"
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 190.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Name" ""
 			(at 190.5 153.67 0)
 			(effects
 				(font
@@ -6111,7 +6165,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x21_PinSocket"
+		(property "Value" "Conn_01x20_PinSocket"
 			(at 206.248 25.908 0)
 			(effects
 				(font
@@ -6138,6 +6192,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated"
+			(at 194.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7499336"
+			(at 194.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 194.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Name" ""
 			(at 194.31 53.34 0)
 			(effects
 				(font
@@ -6233,7 +6314,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "Conn_01x02_PinSocket"
 			(at 194.31 145.542 0)
 			(effects
 				(font
@@ -6261,6 +6342,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 194.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7499322"
+			(at 194.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 194.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Name" ""
 			(at 194.31 153.67 0)
 			(effects
 				(font
@@ -6472,6 +6580,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C50981"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Name" ""
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "edaaaa10-e1c4-4ce6-b95e-f37f8915033e")
 		)
@@ -6586,6 +6721,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated"
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C7499336"
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 194.31 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Name" ""
 			(at 194.31 115.57 0)
 			(effects
 				(font
