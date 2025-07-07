@@ -3606,7 +3606,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 9a6b2081-cbbb-405b-a0c2-c308ac284748)
+			(uuid 4c4d116d-0ace-495a-bc42-ab5e1bb662fe)
 		)
 	)
 	(netclass_flag ""
@@ -5681,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A-120"
+		(property "Value" "GT-USB-7010AN"
 			(at 30.48 49.53 0)
 			(effects
 				(font
