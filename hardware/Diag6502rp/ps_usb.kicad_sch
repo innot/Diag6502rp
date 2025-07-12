@@ -2888,6 +2888,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "+5V from \nHost System"
+		(exclude_from_sim no)
+		(at 115.316 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d65fc83f-b317-4afb-9722-f3bb65c331cb")
+	)
 	(junction
 		(at 48.26 74.93)
 		(diameter 0)
@@ -3606,7 +3616,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 4c4d116d-0ace-495a-bc42-ab5e1bb662fe)
+			(uuid 205b822a-efcc-4885-8439-f50d439d5643)
 		)
 	)
 	(netclass_flag ""
