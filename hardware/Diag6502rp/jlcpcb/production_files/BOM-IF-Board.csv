@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC,Quantity
+0.1u,"C10,C11,C12,C13,C4,C5,C6,C7,C8,C9",C_0402_1005Metric,C1525,10
+TXS0108EPWR,"U4,U5,U6,U7,U8",TSSOP-20_4.4x6.5mm_P0.65mm,C17206,5
+10u,"C14,C15",C_0603_1608Metric,C19702,2
+10k,R15,R_0402_1005Metric,C25744,1
+Conn_01x02_PinSocket,J8,PinSocket_1x02_P2.54mm_Vertical,C7499322,1
+Conn_01x20_PinSocket,"J2,J4",PinSocket_1x20_P2.54mm_Vertical,C7499336,2

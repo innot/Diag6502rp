@@ -60,19 +60,47 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|135652545|71363784|b8cf0988-b9f6-4b04-a6f8-5b71baae9484|226a86a6-fa9c-4dc9-9923-15e0c7187f4a",
+          "courtyards_overlap|135672545|71363784|492dede6-7ca7-4a12-b2ee-464a1783b427|1db204a9-1c06-4ca5-bba0-62064ac56d31",
           ""
         ],
         [
-          "courtyards_overlap|152127500|70805000|c8aea117-7b5a-4314-bd15-bce3aed5f42e|156d9e9b-ab80-4d3d-8013-f62d9883582e",
+          "courtyards_overlap|159475000|29718845|1a23061f-a41e-432e-95d7-c0e462f0a8bd|5e82748a-f138-439e-9f20-2657d1a0b640",
           ""
         ],
         [
-          "courtyards_overlap|159482829|20851038|5d5109c4-9e3f-44da-92fe-159b4aec9ae2|19a32fe6-c548-4eb6-84e8-fa04485cb304",
+          "courtyards_overlap|161072545|71363784|1a23061f-a41e-432e-95d7-c0e462f0a8bd|872f4a36-165b-406c-9336-bde4b871c27d",
           ""
         ],
         [
-          "courtyards_overlap|161052545|71363784|19a32fe6-c548-4eb6-84e8-fa04485cb304|153fdd20-f8d7-4749-9feb-119cffab00f0",
+          "hole_clearance|145640000|26605000|5a3624b4-b8a0-4ac9-b285-826f7818f351|28d06f60-ceeb-4375-925a-376f6be10503",
+          ""
+        ],
+        [
+          "hole_clearance|145640000|26605000|5a3624b4-b8a0-4ac9-b285-826f7818f351|384df427-d6da-4a7e-aa81-33c878b4de86",
+          ""
+        ],
+        [
+          "hole_clearance|145840000|26605000|5a3624b4-b8a0-4ac9-b285-826f7818f351|5cd95fa6-5b37-410c-85a4-0e845ab4ba3e",
+          ""
+        ],
+        [
+          "hole_clearance|145840000|26605000|5a3624b4-b8a0-4ac9-b285-826f7818f351|6bc3d8d5-6460-4229-9a6d-20b310e52fc9",
+          ""
+        ],
+        [
+          "hole_clearance|151240000|26605000|f955a4f0-a9e8-441c-90d1-8fb5b0b1ac7f|5bbabdc5-c69e-4255-9ea8-acf265f0bbe1",
+          ""
+        ],
+        [
+          "hole_clearance|151240000|26605000|f955a4f0-a9e8-441c-90d1-8fb5b0b1ac7f|c7fa32d9-b872-4292-9975-7a8c04c93129",
+          ""
+        ],
+        [
+          "hole_clearance|151440000|26605000|f955a4f0-a9e8-441c-90d1-8fb5b0b1ac7f|2e82c816-c98a-43cd-bacf-af57eb4bcf62",
+          ""
+        ],
+        [
+          "hole_clearance|151440000|26605000|f955a4f0-a9e8-441c-90d1-8fb5b0b1ac7f|71fd51c9-e79e-4035-a3fc-f993f87e1aed",
           ""
         ]
       ],
@@ -307,7 +335,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IF-Board.kicad_pro",
+    "filename": "Logic-Board.kicad_pro",
     "version": 3
   },
   "net_settings": {

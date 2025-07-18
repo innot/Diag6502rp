@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 7,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -45,21 +45,21 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffdffdf_ffffffff",
+    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
-    "repo_type": "https",
-    "repo_username": "innot",
+    "repo_type": "",
+    "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Diag6502rp.kicad_prl",
+    "filename": "Logic-Board.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
